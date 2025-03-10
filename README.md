@@ -61,34 +61,34 @@ ______________________________________________________________
 **Steps taken**:
 1. **Filtering Out Non-Rental Listings**
 - The initial dataset contained listings for shared flats (WG - Wohngemeinschaften) and apartment swaps. Since these do not reflect standard rental properties, they were removed.
-- Any listing mentioning "WG-geeignet" (WG-friendly) or "Wohnen auf Zeit" (temporary housing) was also filtered out to ensure only full rental listings were included.
+- Any listing mentioning "_WG-geeignet_" (WG-friendly) or "_Wohnen auf Zeit_" (temporary housing) was also filtered out to ensure only full rental listings were included.
 - Properties with a surface area ≤ 22 m² were excluded since most of them were private rooms rather than full apartments.
 
 2. **Handling Missing Values**
 - Columns with high proportions of missing values were carefully assessed.
-- Missing values in "Warmmiete (€/month)" (warm rent) were imputed using:
-    - Warmmiete = Kaltmiete + Nebenkosten + Heizkosten
-- If "Kaltmiete (cold rent)" was missing but "Warmmiete" was available, it was estimated by subtracting known cost components.
-- Missing "Surface Area (m²)" values were manually retrieved from the original listings whenever possible.
-- Price per Square Meter (price per sqm): Calculated for missing values using:
--   - Kaltmiete/Surface Area
+- Missing values in "_Warmmiete (€/month)_" (warm rent) were imputed using:
+    - _Warmmiete = Kaltmiete + Nebenkosten + Heizkosten_
+- If "_Kaltmiete_" (cold rent) was missing but "_Warmmiete_" was available, it was estimated by subtracting known cost components.
+- Missing "_Surface Area (m²)_" values were manually retrieved from the original listings whenever possible.
+- Price per Square Meter (_price per sqm_) was calculated for missing values using:
+-   - _Kaltmiete/Surface Area_
   
 3. **Feature Engineering: Creating New Useful Columns**
-- Availability Period (days_until_available): The number of days until the apartment becomes available, derived from the move-in date.
+- Availability Period (_days_until_available_): The number of days until the apartment becomes available, derived from the move-in date.
 - Rental Conditions: Extracted keywords from listing titles and features to determine:
-  - If the apartment requires a Wohnberechtigungsschein (WBS - social housing permit).
+  - If the apartment requires a _Wohnberechtigungsschein_ (WBS - social housing permit).
   - If it is explicitly furnished.
   - If pets are allowed.
 
 4. **Standardizing Address and Location Data**
-- The raw addresses were split to extract Berlin districts ("Bezirk") and subdistricts ("Ortsteil") for better geographic analysis.
+- The raw addresses were split to extract Berlin districts ("_Bezirk_") and subdistricts for better geographic analysis.
 - The zip codes were verified.
 
 5. **Handling Erroneous and Outlier Values**
 - Unrealistic Rental Prices:
   - Listings with extreme price per sqm values were flagged as outliers.
   - Any rental price below 5€/m² or above 50€/m² was manually checked and corrected if needed.
-- Service Charges (Nebenkosten) Outliers:
+- Service Charges (_Nebenkosten_) Outliers:
   - The average Nebenkosten was calculated per square meter, and extreme deviations were flagged.
   - Several listings had Nebenkosten > 50% of the Kaltmiete, which were corrected or removed.
 - Deposits (Kaution) Outliers:
