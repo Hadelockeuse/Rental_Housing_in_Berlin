@@ -8,6 +8,22 @@ This repository contains three main Jupyter Notebook files that document the dif
 2. **multiple_to_one_cvs_merging.ipynb** – Merging multiple CSV files into a single dataset.
 3. **Rental_property_listings_in_Berlin.ipynb** – Cleaning and preparing the rental data for analysis.
 
+## Datasets Available in This Repository
+To ensure privacy and compliance with data protection policies, I have made the datasets available with certain modifications:
+
+### Web-Scraped Listings (before cleaning)
+📂 File: merged_listings_4_github.csv
+
+- This file contains the raw, web-scraped rental listings before any cleaning, filtering, or feature engineering.
+- Modifications made for privacy reasons: I removed URLs, addresses, and real estate agency details.
+
+### Cleaned and Processed Listings (after cleaning - see step 3)
+📂 File: updated_listings_4_github.csv
+
+- This file contains the fully cleaned dataset after all preprocessing steps (outlier removal, feature engineering, etc.).
+- Modifications made for privacy reasons: I removed URLs and addresses.
+
+  
 ## Steps in the project
 ### First step: Webscraping with Python
 **Objective**: The goal of this step was to collect rental property listings from a well-known German real estate website. These listings contain essential information such as rent price, surface area, number of rooms, and various property features. Since this data is not openly available in a structured format, web scraping was used to extract and compile it into a dataset.
