@@ -42,11 +42,13 @@ ______________________________________________________________
 
 2. **Handling Missing Values**
 - Columns with high proportions of missing values were carefully assessed.
-- Missing values in "Warmmiete (€/month)" (warm rent) were imputed using: Warmmiete = Kaltmiete + Nebenkosten + Heizkosten
+- Missing values in "Warmmiete (€/month)" (warm rent) were imputed using:
+    - Warmmiete = Kaltmiete + Nebenkosten + Heizkosten
 - If "Kaltmiete (cold rent)" was missing but "Warmmiete" was available, it was estimated by subtracting known cost components.
 - Missing "Surface Area (m²)" values were manually retrieved from the original listings whenever possible.
-- Price per Square Meter (price per sqm): Calculated for missing values using: Kaltmiete/Surface Area
-- 
+- Price per Square Meter (price per sqm): Calculated for missing values using:
+-   - Kaltmiete/Surface Area
+  
 3. **Feature Engineering: Creating New Useful Columns**
 - Availability Period (days_until_available): The number of days until the apartment becomes available, derived from the move-in date.
 - Rental Conditions: Extracted keywords from listing titles and features to determine:
