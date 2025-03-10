@@ -145,7 +145,7 @@ This cleaned dataset is structured to provide insights into the Berlin rental ma
   - Year of construction and energy efficiency rating.
 
 - **Location Details:**
-  - District (Bezirk) and subdistrict (Ortsteil) extracted from addresses.
+  - District (Bezirk) and subdistrict extracted from addresses.
   - Zip code for geospatial analysis.
 
 - **Amenities & Features:**
