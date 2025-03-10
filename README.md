@@ -1,6 +1,6 @@
 # Rental_Housing_in_Berlin
 ## Introduction
-After struggling to find a convenient flat at a reasonable price in Berlin, I became interested in understanding the characteristics of the rental housing market in this city. This project aims to explore the Berlin rental market through web scraping, data cleaning, and preparation. 
+After struggling to find a convenient flat at a reasonable price in Berlin, I became interested in understanding the characteristics of the rental housing market in this city. This project aims to explore the Berlin rental market through web scraping, data cleaning, and visualization. 
 
 ## Project Structure
 This repository contains three main Jupyter Notebook files that document the different steps of the analysis:
