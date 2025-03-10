@@ -4,16 +4,40 @@ After struggling to find a convenient flat at a reasonable price in Berlin, I be
 
 ## Project Structure
 This repository contains three main Jupyter Notebook files that document the different steps of the analysis:
-1. Appartment_listings_Scraper.ipynb – Web scraping apartment listings.
-2. multiple_to_one_cvs_merging.ipynb – Merging multiple CSV files into a single dataset.
-3. Rental_property_listings_in_Berlin.ipynb – Cleaning and preparing the rental data for analysis.
+1. **Appartment_listings_Scraper.ipynb** – Web scraping property listings.
+2. **multiple_to_one_cvs_merging.ipynb** – Merging multiple CSV files into a single dataset.
+3. **Rental_property_listings_in_Berlin.ipynb** – Cleaning and preparing the rental data for analysis.
 
 ## Steps in the project
-______________________________________________________________
 ### First step: Webscraping with Python
-- **Objective:** Collect rental property listings from one of Germany's most popular real estate websites.
-- **Tools Used:** requests, BeautifulSoup, Selenium, and pandas.
-- **Key Output:** A dataset containing raw rental listings extracted from the website.
+**Objective**: The goal of this step was to collect rental property listings from a well-known German real estate website. These listings contain essential information such as rent price, surface area, number of rooms, and various property features. Since this data is not openly available in a structured format, web scraping was used to extract and compile it into a dataset.
+
+**Steps taken**:
+1. **Identifying the Data Source**
+- The target website lists thousands of rental properties in Berlin.
+- Each listing contains multiple elements of interest:
+  - Basic rental information (cold rent, warm rent, additional costs).
+  - Property details (size, number of rooms, floor level).
+  - Amenities (balcony, garden, elevator, etc.).
+  - Rental conditions (furnished/unfurnished, pet policies, availability date).
+- Listings are paginated, requiring automated navigation to scrape multiple pages.
+
+2. **Choosing the Scraping Method**
+Two main scraping approaches were considered:
+- Static Scraping using requests and BeautifulSoup:
+  - Works well when the website serves static HTML content.
+  - Faster and more lightweight, but does not handle dynamic elements.
+- Dynamic Scraping using Selenium:
+  - Required because certain elements (e.g., rental prices) load dynamically via JavaScript.
+  - Allows interaction with the webpage (clicking "Next" to load more listings).
+  - Necessary for extracting full property details.
+
+3. **Implementation**
+The scraping process was implemented using the following tools:
+- _requests_ – For fetching raw HTML content (when possible).
+- _BeautifulSoup_ – For parsing and extracting structured data from HTML.
+- _Selenium_ – For interacting with dynamic elements such as pagination and JavaScript-rendered content.
+- _pandas_ – For storing extracted data in a structured format (DataFrame).
 
 📂 See: Appartment_listings_Scraper.ipynb
 ______________________________________________________________
