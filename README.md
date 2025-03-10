@@ -17,7 +17,7 @@ To ensure privacy and compliance with data protection policies, I have made the 
 - This file contains the raw, web-scraped rental listings before any cleaning, filtering, or feature engineering.
 - Modifications made for privacy reasons: I removed URLs, addresses, and real estate agency details.
 
-### Cleaned and Processed Listings (after cleaning - see step 3)
+### Cleaned and Processed Listings (after cleaning - see third step)
 📂 File: updated_listings_4_github.csv
 
 - This file contains the fully cleaned dataset after all preprocessing steps (outlier removal, feature engineering, etc.).
