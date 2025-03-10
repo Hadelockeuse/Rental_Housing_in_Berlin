@@ -6,7 +6,8 @@ After struggling to find a convenient flat at a reasonable price in Berlin, I be
 This repository contains three main Jupyter Notebook files that document the different steps of the analysis:
 1. **Appartment_listings_Scraper.ipynb** – Web scraping property listings.
 2. **multiple_to_one_cvs_merging.ipynb** – Merging multiple CSV files into a single dataset.
-3. **Rental_property_listings_in_Berlin.ipynb** – Cleaning and preparing the rental data for analysis.
+3. **Rental_property_listings_in_Berlin.ipynb** – Cleaning and preparing the rental data for visualization.
+4.  – Dataset visualization of correlations and trends with Power BI.
 
 ## Datasets Available in This Repository
 To ensure privacy and compliance with data protection policies, I have made the datasets available with certain modifications:
