@@ -22,7 +22,7 @@ To ensure privacy and compliance with data protection policies, I have made the 
 
 - This file contains the fully cleaned dataset after all preprocessing steps (outlier removal, feature engineering, etc.).
 - Modifications made for privacy reasons: I removed URLs and addresses.
-- For columns decription and explanation 📂 See: _col_description_updated_listings_
+- For columns decription and explanation 📂 See: _col_description_updated_listings.md_
 
   
 ## Steps in the project
