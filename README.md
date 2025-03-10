@@ -27,6 +27,8 @@ To ensure privacy and compliance with data protection policies, I have made the 
   
 ## Steps in the project
 ### First step: Webscraping with Python
+📂 See: `Appartment_listings_Scraper.ipynb`
+
 **Objective**: The goal of this step was to collect rental property listings from a well-known German real estate website. These listings contain essential information such as rent price, surface area, number of rooms, and various property features. Since this data is not openly available in a structured format, web scraping was used to extract and compile it into a dataset.
 
 **Steps taken**:
@@ -55,20 +57,20 @@ The scraping process was implemented using the following tools:
 - _BeautifulSoup_ – For parsing and extracting structured data from HTML.
 - _Selenium_ – For interacting with dynamic elements such as pagination and JavaScript-rendered content.
 - _pandas_ – For storing extracted data in a structured format (DataFrame).
-
-📂 See: `Appartment_listings_Scraper.ipynb`
 ______________________________________________________________
 ### Second step: Data merging with Python
+📂 See: `multiple_to_one_cvs_merging.ipynb`
+
 - **Objective:** Combine multiple CSV files (each containing rental listings from different scraping runs) into a single dataset.
   
 - **Steps taken:**
   - Read multiple CSV files.
   - Standardized column names and formats.
   - Concatenated data into one structured dataset.
-
-📂 See: `multiple_to_one_cvs_merging.ipynb`
 ______________________________________________________________
 ### Third step: Data cleaning and preparation with Python
+📂 See: `Rental_property_listings_in_Berlin.ipynb`
+
 **Objective**: The raw scraped data contained inconsistencies, missing values, and irrelevant listings that needed cleaning before any analysis. The goal of this step was to:
 - Remove listings that do not represent standard rental apartments.
 - Ensure consistent and structured data.
@@ -126,9 +128,6 @@ ______________________________________________________________
 
 7. **Exporting the Cleaned Dataset**
 - After cleaning, the dataset was saved in CSV format for further analysis in Power BI.
-
-📂 See: `Rental_property_listings_in_Berlin.ipynb`
-
 ______________________________________________________________
 
 **Keys features of the cleaned Dataset**
@@ -161,4 +160,6 @@ This cleaned dataset is structured to provide insights into the Berlin rental ma
 
 ______________________________________________________________
 ### Fourth step: Data visualization with Power BI
+📂 See: `xxxx`
+
 Lastly, I visualized the data using Power BI.
