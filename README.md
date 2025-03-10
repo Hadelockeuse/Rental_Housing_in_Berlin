@@ -12,16 +12,17 @@ This repository contains three main Jupyter Notebook files that document the dif
 To ensure privacy and compliance with data protection policies, I have made the datasets available with certain modifications:
 
 ### Web-Scraped Listings (before cleaning)
-📂 File: merged_listings_4_github.csv
+📂 _File: merged_listings_4_github.csv_
 
 - This file contains the raw, web-scraped rental listings before any cleaning, filtering, or feature engineering.
 - Modifications made for privacy reasons: I removed URLs, addresses, and real estate agency details.
 
 ### Cleaned and Processed Listings (after cleaning - see third step)
-📂 File: updated_listings_4_github.csv
+📂 _File: updated_listings_4_github.csv_
 
 - This file contains the fully cleaned dataset after all preprocessing steps (outlier removal, feature engineering, etc.).
 - Modifications made for privacy reasons: I removed URLs and addresses.
+- For columns decription and explanation 📂 See: _col_description_updated_listings_
 
   
 ## Steps in the project
@@ -55,7 +56,7 @@ The scraping process was implemented using the following tools:
 - _Selenium_ – For interacting with dynamic elements such as pagination and JavaScript-rendered content.
 - _pandas_ – For storing extracted data in a structured format (DataFrame).
 
-📂 See: Appartment_listings_Scraper.ipynb
+📂 See: _Appartment_listings_Scraper.ipynb_
 ______________________________________________________________
 ### Second step: Data merging with Python
 - **Objective:** Combine multiple CSV files (each containing rental listings from different scraping runs) into a single dataset.
@@ -65,7 +66,7 @@ ______________________________________________________________
   - Standardized column names and formats.
   - Concatenated data into one structured dataset.
 
-📂 See: multiple_to_one_cvs_merging.ipynb
+📂 See: _multiple_to_one_cvs_merging.ipynb_
 ______________________________________________________________
 ### Third step: Data cleaning and preparation with Python
 **Objective**: The raw scraped data contained inconsistencies, missing values, and irrelevant listings that needed cleaning before any analysis. The goal of this step was to:
@@ -126,7 +127,7 @@ ______________________________________________________________
 7. **Exporting the Cleaned Dataset**
 - After cleaning, the dataset was saved in CSV format for further analysis in Power BI.
 
-📂 See: Rental_property_listings_in_Berlin.ipynb
+📂 See: _Rental_property_listings_in_Berlin.ipynb_
 
 ______________________________________________________________
 
