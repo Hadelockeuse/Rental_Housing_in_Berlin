@@ -1,6 +1,6 @@
 # Column Descriptions for `updated_listings_4_github.csv`
 
-This rental property dataset contains 2,294 rental property listings (rows) from Berlin with 63 columns providing details on rent, property characteristics, location, and amenities.
+This rental property dataset contains 2294 rental property listings (rows) from Berlin with 63 columns providing details on rent, property characteristics, location, and amenities.
 
 ## **Rental Information**
 - **Title:** Title of the property listing from the real estate website (string).
