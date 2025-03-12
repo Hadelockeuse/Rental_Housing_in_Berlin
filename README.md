@@ -163,4 +163,4 @@ ______________________________________________________________
 ### Fourth step: Data visualization with Power BI
 📂 See: `xxxx`
 
-Lastly, I visualized the data using Power BI.
+**Objective**: To gain a deeper understanding of the rental market in Berlin, I visualized the cleaned dataset using Power BI. The goal of this step was to highlight key trends and correlations in the rental housing market.
