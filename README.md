@@ -7,7 +7,7 @@ This repository contains three main Jupyter Notebook files that document the dif
 1. **Appartment_listings_Scraper.ipynb** – Web scraping property listings.
 2. **multiple_to_one_cvs_merging.ipynb** – Merging multiple CSV files into a single dataset.
 3. **Rental_property_listings_in_Berlin.ipynb** – Cleaning and preparing the rental data for visualization.
-4.  – Dataset visualization of correlations and trends with Power BI.
+4.  **rental_housing_project.pbix.pbix** – Dataset visualization of correlations and trends with Power BI.
 
 ## Datasets Available in This Repository
 To ensure privacy and compliance with data protection policies, I have made the datasets available with certain modifications:
