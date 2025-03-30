@@ -162,6 +162,7 @@ This cleaned dataset is structured to provide insights into the Berlin rental ma
 ______________________________________________________________
 ### Fourth step: Data visualization with Power BI
 📂 See: `rental_housing_project.pbix.pbix`
+
 📂 See: `rental_housing_project.pbix.pdf`
 
 **Objective**: To gain a deeper understanding of the rental market in Berlin, I visualized the cleaned dataset using Power BI. The goal of this step was to highlight key trends and correlations in the rental housing market.
