@@ -222,6 +222,9 @@ Additionally, individuals with a WBS (Wohnberechtigungsschein) can **significant
 
 ### Limitations
 **Sample Size:** The dataset includes only 2294 listings, limiting generalizability, particularly for subdistrict analysis.
+
 **No Statistical Testing:** Findings are based on exploratory visualization rather than statistical significance tests.
+
 **Data Source Bias:** Listings were scraped from a single real estate website, which may not represent the full market.
+
 **Imputed Rent Values:** Some warm rent values were calculated from cold rent + utility costs + eventual parking costs, as not all listings provided this information explicitly.
