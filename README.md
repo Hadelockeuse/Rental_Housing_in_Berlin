@@ -207,7 +207,7 @@ ______________________________________________________________
 <img src="images/n of pics.jpg" alt="Alt text" width="450"/>
 
 **Listing Photos & Price:** An unexpected finding from this visual data exploration is that listings with 10 or fewer pictures tend to be €386 cheaper than those with more than 10 pictures. However, this may be correlated with other factors influencing rent, such as the number of rooms or the total surface area of the property. It could also reflect the willingness of real estate agents to invest more in advertising for higher-priced properties.
-
+______________________________________________________________
 ### Summary 
 This project provides insights into Berlin’s rental market and highlights key factors that influence warm rent prices. Renters looking for affordable options should consider:
 - Choosing properties with **floor heating** rather than central heating
@@ -219,7 +219,7 @@ It is also interesting to note two key characteristics of Berlin’s rental mark
 - **Three-quarters** of the listings have **relatively good energy efficiency ratings** (from A+ to C).
 
 Additionally, individuals with a WBS (Wohnberechtigungsschein) can **significantly benefit from lower-cost housing options**. It's not just a common assumption, but a concrete advantage that helps those with a WBS find more affordable flats.
-
+______________________________________________________________
 ### Limitations
 **Sample Size:** The dataset includes only 2294 listings, limiting generalizability, particularly for subdistrict analysis.
 
