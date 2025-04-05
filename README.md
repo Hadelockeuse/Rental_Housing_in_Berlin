@@ -172,30 +172,37 @@ ______________________________________________________________
 <img src="images/earliest move in date.jpg" alt="Alt text" width="450"/>
 
 **Availability:** Nearly **70% of listings** were available for immediate move-in (see day 0 in light blue).
+______________________________________________________________
 
 <img src="images/energy efficiency ratings.jpg" alt="Alt text" width="450"/>
 
 **Energy Efficiency:** The energy efficiency ratings range from A+ (best) to H (worst). Fortunately, aspiring renters are more likely to come across a listing with one of the higher-rated categories (i.e., A+, A, B, or C), which account for more than 75% of the ratings in the market.
+______________________________________________________________
 
-<img src="images/districts.jpg" alt="Alt text" width="1200"/>
+<img src="images/districts.jpg" alt="Alt text" width="1400"/>
 
-**District Pricing Trends:** Unsurprisingly, the data confirms that some districts have significantly higher rents than others, with Charlottenburg-Wilmersdorf and Mitte being the two most expensive, while Lichtenberg-Hohenschönhausen, Marzahn-Hellersdorf, and Spandau are the three most affordable. 
+**District Pricing Trends:** Unsurprisingly, the data confirms that some districts have significantly higher rents than others, with Charlottenburg-Wilmersdorf and Mitte being the two most expensive, while Lichtenberg-Hohenschönhausen, Marzahn-Hellersdorf, and Spandau are the three most affordable.
+______________________________________________________________
 
-<img src="images/subdistricts.jpg" alt="Alt text" width="1200"/>
+<img src="images/subdistricts.jpg" alt="Alt text" width="1400"/>
 
 **Subdistrict Pricing Trends:** It was possible to analyze the rental market at a more granular level by looking at subdistricts. However, since the number of cleaned listings was limited to 2,294, the median warm rent calculated for each subdistrict may not fully represent the actual rental situation in Berlin. Subdistricts with fewer than six listings were grouped under "Other subdistrict," which explains why not all Berlin subdistricts appear in the visualization.
+______________________________________________________________
 
 <img src="images/Floor covering.jpg" alt="Alt text" width="450"/>
 
 **Flooring & Rent Price:** Rental listings mentioning plastic, linoleum, or laminate flooring tend to be more affordable than those featuring stone flooring. 
+______________________________________________________________
 
 <img src="images/heating system.jpg" alt="Alt text" width="450"/>
 
 **Heating & Rent Price:** Flats with a floor heating system tend to be the least expensive, whereas those with a central heating system are the most expensive.
+______________________________________________________________
 
 <img src="images/WBS.jpg" alt="Alt text" width="450"/>
 
 **Social Housing Permit (WBS):** Apartments requiring a social housing permit (Wohnberechtigungsschein or WBS in German) tend to be €541 cheaper than those that do not require one.
+______________________________________________________________
 
 <img src="images/n of pics.jpg" alt="Alt text" width="450"/>
 
